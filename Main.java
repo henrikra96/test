@@ -16,7 +16,7 @@ public  class Main
         System.out.println(sum);
         
         int mul = 1;
-        for (int i = 1; i <= 10 ; ++i)
+        for (int i = 1; i <= 50 ; ++i)
         {
             mul *= i;
         }

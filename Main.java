@@ -21,5 +21,14 @@ public  class Main
             mul *= i;
         }
         System.out.println(mul);
+        
+        //1+1/2^2+1/3^2+1/4^2+ ....
+        //Grenzwert harmonische reihe pi^2/6
+        double reihe = 0;
+        for(int i = 1 ; i <= 10 ; i++)
+        {
+            reihe += 1/Math.pow(i, 2);
+        }
+        System.out.println(reihe);
     }
 }
